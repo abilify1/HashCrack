@@ -108,7 +108,7 @@ if (pilih == '2') or (pilih == '02'):
  if (hyu1 == '4') or (hyu1 == '04'):
   try:
    import binascii
-   ko1 = bytes(input(f"{anj}----> [{kan}INPUT{anj}] {kan}Masukkan code base32{anj} > {kon}"),encoding='utf8')
+   ko1 = bytes(input(f"{anj}----> [{kan}INPUT{anj}] {kan}Masukkan code base16{anj} > {kon}"),encoding='utf8')
    base16.cracker(ko1)
   except binascii.Error as e:print (f"{anj}----> [{kun}ERROR{anj}] > {kun}{e}")
 
