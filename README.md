@@ -1,2 +1,2 @@
 # HashCrack
-Hasher and cracker with python.
+Hasher and cracker password with python.
